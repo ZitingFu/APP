@@ -1,15 +1,15 @@
 <template>
   <div class="ShoppingCart">
+  	<router-link to="/My">
         <div class="index_head">
             <van-nav-bar
             title="购物车"
             left-text="返回"
             right-text="管理"
             left-arrow
-            @click-left="onClickLeft"
-            @click-right="onClickRight"
             />
         </div>
+   </router-link> 
 	 	<div class="index_center">
 	 		<div class="index_center_item" 	v-for="(item, index) in itemlist" :key="index">
 	 			 <!--复选框-->
@@ -101,7 +101,7 @@ export default {
         tag:'',
         desc:'',
         title:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
-        imageURL:'//img.alicdn.com/imgextra/i4/116364591/O1CN012bCtQS1jmiqGwKBpO_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+        imageURL:'https://img.alicdn.com/imgextra/i4/116364591/O1CN012bCtQS1jmiqGwKBpO_!!0-saturn_solar.jpg_220x220.jpg_.webp',
         price:'120.00',
         originprice:'150.00',
         num:1,

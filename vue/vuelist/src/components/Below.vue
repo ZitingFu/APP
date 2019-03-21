@@ -1,11 +1,11 @@
 <template>
   <div class="Below">
-		<van-tabbar v-model="active">
+		<van-tabbar v-model="active" active-color="#07c160">
 		  <van-tabbar-item icon="home-o"><router-link to="/">首页</router-link></van-tabbar-item>
 		   <van-tabbar-item icon="home-o"><router-link to="/Microscouring">微淘</router-link></van-tabbar-item>
-		  <van-tabbar-item icon="friends-o" info="5"><router-link to="/news">消息</router-link></van-tabbar-item>
-		  <van-tabbar-item icon="setting-o" info="20"><router-link to="/ShoppingCart">购物车</router-link></van-tabbar-item>
-		  <van-tabbar-item icon="setting-o" info="20"><router-link to="/my">我的淘宝</router-link></van-tabbar-item>
+		  <van-tabbar-item icon="friends-o"><router-link to="/news">消息</router-link></van-tabbar-item>
+		  <van-tabbar-item icon="setting-o"><router-link to="/ShoppingCart">购物车</router-link></van-tabbar-item>
+		  <van-tabbar-item icon="setting-o" ><router-link to="/my">我的淘宝</router-link></van-tabbar-item>
 		</van-tabbar>
   </div>
 </template>
@@ -31,4 +31,5 @@ export default {
 		bottom: 0;
 		left: 0;
 	}
+	
 </style>

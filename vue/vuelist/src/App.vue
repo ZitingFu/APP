@@ -20,4 +20,28 @@ export default {
   color: #2c3e50;
   /*margin-top: 60px;/*/
 }
+a{
+	color:#323233;
+}
+.My,.Coupon,.News,.IM{
+		position:fixed;
+		background-color: #f1f4f8;
+		width: 100%;
+		bottom: 0;
+		top:0;
+}
+.FAFAFA{
+	border-bottom:10px solid #f1f4f8;
+}
+.borderTop{
+	border-top:1px solid #f1f4f8;
+}
+.borderbottom{
+	border-bottom:1px solid #f1f4f8;
+}
+.bordercenter{
+	border-top:1px solid #f1f4f8;
+	border-bottom:1px solid #f1f4f8;
+}
+
 </style>

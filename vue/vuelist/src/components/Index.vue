@@ -1,5 +1,5 @@
 <template>
-  <div class="index">
+  <div class="Index">
   	<div class="index_head">
 	 		<h2>首页</h2>
 		</div>
