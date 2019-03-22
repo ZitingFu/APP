@@ -66,6 +66,58 @@ export default {
 		        desc:'好的',
 		        title:'神帝',
 		        imageURL:'https://img.alicdn.com/imgextra/i1/111964120/O1CN01MJ2fAb1gJ0I8K3PSv_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+	        },
+	        {
+		        id:'1',
+		        desc:'有什么可以帮助你',
+		        title:'米克屋',
+		        imageURL:'https://img.alicdn.com/imgextra/i4/12033258/O1CN012gBUcI1ZwCsglk2ws_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+		       
+	        },
+	        {
+		        id:'2',
+		        desc:'实在很抱歉',
+		        title:'鞋子',
+		        imageURL:'https://img.alicdn.com/imgextra/i4/116364591/O1CN012bCtQS1jmiqGwKBpO_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+	        },
+	        {
+		        id:'3',
+		        desc:'请放心',
+		        title:'孕妇裙',
+		        imageURL:'https://img.alicdn.com/imgextra/i2/52630271/O1CN011Ds9nXe68MP8UDR_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+		       
+	        },
+	        {
+		        id:'4',
+		        desc:'好的',
+		        title:'神帝',
+		        imageURL:'https://img.alicdn.com/imgextra/i1/111964120/O1CN01MJ2fAb1gJ0I8K3PSv_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+	        },
+	        {
+		        id:'1',
+		        desc:'有什么可以帮助你',
+		        title:'米克屋',
+		        imageURL:'https://img.alicdn.com/imgextra/i4/12033258/O1CN012gBUcI1ZwCsglk2ws_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+		       
+	        },
+	        {
+		        id:'2',
+		        desc:'实在很抱歉',
+		        title:'鞋子',
+		        imageURL:'https://img.alicdn.com/imgextra/i4/116364591/O1CN012bCtQS1jmiqGwKBpO_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+	        },
+	        {
+		        id:'3',
+		        desc:'请放心',
+		        title:'孕妇裙',
+		        imageURL:'https://img.alicdn.com/imgextra/i2/52630271/O1CN011Ds9nXe68MP8UDR_!!0-saturn_solar.jpg_220x220.jpg_.webp',
+		       
+	        },
+	        {
+		        id:'4',
+		        desc:'好的',
+		        title:'神帝',
+		        imageURL:'https://img.alicdn.com/imgextra/i1/111964120/O1CN01MJ2fAb1gJ0I8K3PSv_!!0-saturn_solar.jpg_220x220.jpg_.webp',
 	        }
         ]
     }
@@ -81,14 +133,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	.van-card__thumb{
-		width: 45px;
-		height: 45px;
+		width: 0.45rem;
+		height: 0.45rem;
 	}
 	.van-card__content{
 		height:auto;
 	}
 	.van-card__title{
-		line-height: 24px;
+		line-height: 0.24rem;
 	}
 	.van-card {
 		background-color:#fff;

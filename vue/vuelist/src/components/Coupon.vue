@@ -81,6 +81,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	.index_center{
-		margin-top:5%;
+		/*margin-top:5%;*/
+	}
+	.van-coupon-list__list{
+		height: auto !important;
 	}
 </style>

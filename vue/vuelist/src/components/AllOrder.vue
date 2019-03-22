@@ -47,7 +47,7 @@ export default {
 	        {
 		        id:'0',
 		        tag:'标签',
-		        desc:'',
+		        desc:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
 		        title:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
 		        imageURL:'https://img.alicdn.com/imgextra/i2/29529879/O1CN01RDJrB32MqdEYQlmvE_!!0-saturn_solar.jpg_220x220.jpg_.webp',
 		        price:'100.00',
@@ -58,7 +58,7 @@ export default {
 	        {
 		        id:'1',
 		        tag:'标签',
-		        desc:'',
+		        desc:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
 		        title:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
 		        imageURL:'https://img.alicdn.com/imgextra/i4/12033258/O1CN012gBUcI1ZwCsglk2ws_!!0-saturn_solar.jpg_220x220.jpg_.webp',
 		        price:'80.00',
@@ -69,7 +69,7 @@ export default {
 	        {
 		        id:'2',
 		        tag:'',
-		        desc:'',
+		        desc:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
 		        title:'2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男',
 		        imageURL:'https://img.alicdn.com/imgextra/i1/51078990/O1CN01aJ20q12GHT8BQqOq1_!!0-saturn_solar.jpg_220x220.jpg_.webp',
 		        price:'200.00',

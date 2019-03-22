@@ -24,24 +24,37 @@ a{
 	color:#323233;
 }
 .My,.Coupon,.News,.IM{
-		position:fixed;
+		/*position:fixed;*/
+		padding-bottom:0.8rem ;
 		background-color: #f1f4f8;
 		width: 100%;
+		height: 100%;
 		bottom: 0;
 		top:0;
 }
 .FAFAFA{
-	border-bottom:10px solid #f1f4f8;
+	border-bottom:0.1rem solid #f1f4f8;
 }
 .borderTop{
-	border-top:1px solid #f1f4f8;
+	border-top:0.01rem solid #f1f4f8;
 }
 .borderbottom{
-	border-bottom:1px solid #f1f4f8;
+	border-bottom:0.01rem solid #f1f4f8;
 }
 .bordercenter{
-	border-top:1px solid #f1f4f8;
-	border-bottom:1px solid #f1f4f8;
+	border-top:0.01rem solid #f1f4f8;
+	border-bottom:0.01rem solid #f1f4f8;
 }
-
+.fl-ri{
+	float: right;
+	/*overflow: hidden;*/
+}
+.fl-le{
+	float: left;
+	/*overflow: hidden;*/
+}
+img{
+	vertical-align:left;
+	display:block;
+}
 </style>

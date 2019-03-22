@@ -14,6 +14,7 @@
 			</van-tabbar>
 		</div>
 	 	<div class="index_center">
+	 		
 	 		<router-link to="/ShoppingCart">
 	 			<van-cell  value="20" icon="completed" is-link>
 				  <template slot="title">
@@ -96,11 +97,18 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	.index_head{
-		margin-top:13%;
+	.My{
+		/*padding-bottom:0.8rem ;*/
+    /*background-color: #f1f4f8;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;*/
+		/*height: 100%;*/
 	}
-	.My .van-tabbar--fixed{
-		top:23%;
+	.index_head  .van-tabbar--fixed{
+		position: static;
 	}
+
 
 </style>
