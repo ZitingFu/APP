@@ -23,7 +23,7 @@ export default {
 a{
 	color:#323233;
 }
-.My,.Coupon,.News,.IM{
+.My,.News,.IM{
 		/*position:fixed;*/
 		padding-bottom:0.8rem ;
 		background-color: #f1f4f8;
