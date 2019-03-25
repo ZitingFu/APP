@@ -1,7 +1,7 @@
 <template>
   <div class="Index">
-  	<div class="searchInput">
-  			<van-search shape="round" placeholder="请输入搜索关键词" v-model="value" />
+  	<div class="searchInput"  v-on:click="counter">
+  			<van-search  shape="round"  placeholder="请输入搜索关键词" v-model="value" />
   	</div>
   	<div class="index_head">
   		<!--轮播-->
@@ -51,6 +51,7 @@
 </template>
 <script>
 import Below from './Below'	
+import { requestLogin,batchRemoveUser } from '../api/api';
 export default {
 	name: 'Index',
   data() {
@@ -178,7 +179,14 @@ export default {
  		"bottomfooter":Below
  },
   methods: {
-		
+  	counter(){
+  			let para = {};
+  			batchRemoveUser(para).then((res) => {
+						console.log(res)
+				}).catch((error) => {
+					console.log(error)  
+				});
+  	}
   }
 }
 </script>

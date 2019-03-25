@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+//import axios from 'axios'
 
 //下载需要的模块
 import ElementUI from 'element-ui';
@@ -38,6 +39,7 @@ Vue.use(CouponCell).use(CouponList);
 Vue.use(Router)
 Vue.use(ElementUI);
 Vue.use(Vant);
+//Vue.use(axios);
 
 
 export default new Router({

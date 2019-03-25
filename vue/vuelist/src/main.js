@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
 //import { Card } from 'vant';
 //
 //Vue.use(Card);
 
 Vue.config.productionTip = false
+Vue.prototype.$axios = axios
 
+//Vue.use(axios);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
