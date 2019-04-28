@@ -1,0 +1,60 @@
+Token验证
+
+设置前端路由跳转
+
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(route => route.meta.auth)) {
+    // 判断token是否存在，如果存在则正常跳转
+    if (localStorage.getItem('token')) {
+      next()
+    } else {
+      next('/login')
+    }
+  } else {
+    next()
+  }
+})
+
+登录成功，将token存储
+
+login () {
+  // 发起请求登录
+  axios.post('/user/login', this.user).then(res => {
+    console.log(res.data)
+    // 接收到token后将token存储到localstorage
+    // 前缀必须要加
+    localStorage.setItem('token', "Bearer " + res.data.res.token)
+  })
+}
+
+设置请求拦截器
+
+只要有token就让每次请求都携带token
+
+// 设置请求拦截器
+axios.interceptors.request.use(config => {
+  // console.log(config)
+  const token = localStorage.getItem('token')
+  if (token) {
+    // 将获取到的token设置给header中的Authorization
+    config.headers.Authorization = token
+  }
+  return config
+})
+设置响应拦截器
+
+对响应结果进行处理，token出现问题，返回一定是401
+
+// 设置响应拦截器
+axios.interceptors.response.use(res => {
+  // 对结果进行处理
+  if (res.data.res_code === 401) {
+    // 跳转登录
+    router.replace('/login')
+    // 删除token
+    localStorage.removeItem('token')
+  }
+  return res
+}, err => {
+  // 如果是正常接口，会走err，err.response.status值为401 进行跳转及删除token的操作
+})
